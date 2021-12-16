@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "setStore",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getStore",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"New Test.sol": "String"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"New Test.sol": {
+			"keccak256": "0x8e3298300df80165ca07577db4ccaa11dc1672e4b20ced5c1c4f63d1ab083aec",
+			"urls": [
+				"bzzr://2a5e00afa37d081cf88f00bc6bbdc493b79f530c6895bf63dcd7c5563df86c2e"
+			]
+		}
+	},
+	"version": 1
+}
