@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.7.5;
-contract bony {
-// Some logic
-}
-contract tony {
-    string private str = "Hello Tony";
-}
+pragma solidity ^0.8.9;
 
-// hi hi
+contract Tony {
+    string value;
+
+    function go() public view returns(string memory) {
+        return value;
+    }
+}

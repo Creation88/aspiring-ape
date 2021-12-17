@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "go",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"New Test.sol": "tony"
+			"New Test.sol": "Tony"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"New Test.sol": {
-			"keccak256": "0x03017867c5b915556547dd66b544cdf5e06f71006fad92ed3cef7faa739f82a0",
+			"keccak256": "0x1dbd7f2f6e2092bbbe1992e3c205adc15ff704fe08878aa36afc3235ab3437dd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7578d024fa9f0e0be9981ad0b2e6112f9eceb87e7e03a28c44b9b1fad9b5d2d5",
-				"dweb:/ipfs/QmaY6MU1Q9s7Qu9DSNeg1WvrdHRRcbBAUBRrYvd2HJfbho"
+				"bzz-raw://8a4f4c286d08be89b6f1e4d4f9dd355f010cf1ae1bfbbccdcc9d7884f6150ccc",
+				"dweb:/ipfs/QmNhbmoj6hmfveKNfcdbEuDAb6Nt3QsdgaesQyayUnYWXT"
 			]
 		}
 	},
