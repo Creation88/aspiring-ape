@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"New Test.sol": "Tony"
+			"SimpleStorage.sol": "Tony"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"New Test.sol": {
+		"SimpleStorage.sol": {
 			"keccak256": "0x1dbd7f2f6e2092bbbe1992e3c205adc15ff704fe08878aa36afc3235ab3437dd",
 			"license": "MIT",
 			"urls": [
