@@ -4,7 +4,52 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "creatorNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"methods": {}
 		},
@@ -29,10 +74,10 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x0459bf96f15da9b2add0d278498b93fbd3ecfddbc4101cf507f1fc478d6a85a9",
+			"keccak256": "0x13a5104f914c2d9ba043a03ea35099d99e509b4b9cb31a96d5ace5fe7a1791d5",
 			"urls": [
-				"bzz-raw://44ef1e07cf0c327de47765e10b44819ab2cea73f2fbdbb43585a94f6ee2b0e4d",
-				"dweb:/ipfs/QmeL6Bm4Wvvyjy9JC6DCvW7RzvXZcPNSPDhg2a1wwagGp6"
+				"bzz-raw://c05217815ef4ea3d7f8ab82d6d9fd17cf79971c6a266c9f05a82135b627cc0a2",
+				"dweb:/ipfs/QmSkzKX61H2ctss18SzB7VjUMnHzzkUNXt3UkR9SHZ7GWj"
 			]
 		}
 	},
