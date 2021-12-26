@@ -10,19 +10,25 @@ contract CreatorStorage {
 
     //This will get initiailized to 0
     uint256 creatorNumber;
+    bool favoriteBool;
     
-    struct Ppl {
+
+    struct Creations {
         uint256 creatorNumber;
         string name;
+    
     }
-    Ppl public person = Ppl({creatorNumber: 88, name: "Creator"});
+    Creations[] public creas;
     
     function store(uint256 _favoriteNumber) public {
         creatorNumber = _favoriteNumber;
     }
-    // view, pure
-    function retrieve() public view returns (uint256) {
+    function retrieve() public view returns(uint256) {
         return creatorNumber;
+    }
+
+    function addCreations(string memory _name, uint256 _favoriteNumber) public{
+        creas.push(Creations( _favoriteNumber, _name));
     }
 
 }

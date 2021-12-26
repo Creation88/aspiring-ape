@@ -6,32 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_favoriteNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "addCreations",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "creas",
+				"inputs": [],
+				"name": "person",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -64,7 +40,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_favorite2Number",
 						"type": "uint256"
 					}
 				],
@@ -83,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage.sol": "CreatorStorage"
+			"SimpleStorage.sol": "Creator2Storage"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -98,10 +74,10 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xed18cd01e164434ad269e3a70ad74b60daf093f098f0d39b95563228871084a6",
+			"keccak256": "0x57541832f91d437009753eecd0cbe0d2e77e2af015d3c67511285827d0261856",
 			"urls": [
-				"bzz-raw://267bc166ef1451de6ecfdd48e0579fd8e5ed1f5f84f9684aee6565c66a498685",
-				"dweb:/ipfs/QmYCa554VB2epFfdqMrxg5cABQZFATSBhdSa5t9qRS7mVB"
+				"bzz-raw://354425a5e9ab48da551a077e9a5384f4df89b1e9407e24ac3e4eb914942923de",
+				"dweb:/ipfs/QmfEE7apGYxrZvqaLppVXDYhuTTv1WwGveJbCdzgqrqrZ9"
 			]
 		}
 	},
