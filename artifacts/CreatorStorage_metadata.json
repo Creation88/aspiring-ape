@@ -98,10 +98,10 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xed18cd01e164434ad269e3a70ad74b60daf093f098f0d39b95563228871084a6",
+			"keccak256": "0x3538d0010349f87244564638b7846151ab6450c918e5e0b9ba4e2f97cc4cd305",
 			"urls": [
-				"bzz-raw://267bc166ef1451de6ecfdd48e0579fd8e5ed1f5f84f9684aee6565c66a498685",
-				"dweb:/ipfs/QmYCa554VB2epFfdqMrxg5cABQZFATSBhdSa5t9qRS7mVB"
+				"bzz-raw://4c2b20760ea3e605f83261a858d88c76eaf52c0d5588dd95b662a74943dbdd28",
+				"dweb:/ipfs/QmSyX65RuuWt3Y8gWwVfwZG2nU78jQqS8GwW2zrSho5LaF"
 			]
 		}
 	},
